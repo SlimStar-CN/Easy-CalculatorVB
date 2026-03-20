@@ -1,2 +1,44 @@
-# Easy-CalculatorVB
-A simple calculator developed in VB.NET based on .NET Framework. This project is open-source and will continue to be updated and improved in the future.
+Calculation - VB.NET Simple Calculator
+    A fully functional, clean Windows desktop calculator built with VB.NET, ideal for learning desktop application development.
+
+Features
+    Basic arithmetic operations (+, −, ×, ÷)
+    Error handling with user-friendly popups (e.g., division by zero, invalid input)
+    Top navigation menu with Alt-key shortcuts
+    About window with author info and clickable personal website
+    Consistent window icon across all forms
+    Publishable as a standalone EXE (no .NET runtime required for end users)
+
+Tech Stack
+    Language: Visual Basic .NET (VB.NET)
+    Framework: .NET 10.0
+    IDE: Visual Studio 2026
+
+Quick Start
+    Clone or download this repository
+    Open Calculation.sln in Visual Studio
+    Click the Start button to run the application
+    To publish as a standalone EXE:
+    Right-click the project in Solution Explorer
+    Select Publish
+    Choose Folder as the target
+    Set deployment mode to Self-contained and check Produce single file
+    Click Publish
+
+Project Structure
+    plaintext
+    Calculation/
+    ├─ Calculation/          # Core source code
+    │  ├─ Form1.vb           # Main calculator window
+    │  ├─ About.vb           # About window
+    │  └─ Calculation.vbproj # Project configuration
+    ├─ Calculation.sln       # Visual Studio solution file
+    ├─ Calculation.slnx      # Solution user options
+    └─ README.md             # This file
+
+Author
+    Name: DonGhost
+    Website: [donghost.tech](https://github.com/SlimStar-CN)
+
+License
+    This project is open-source under the MIT License. You are free to use, modify, and distribute it as you wish.
