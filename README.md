@@ -25,17 +25,6 @@ Quick Start
     Set deployment mode to Self-contained and check Produce single file
     Click Publish
 
-Project Structure
-    plaintext
-    Calculation/
-    ├─ Calculation/          # Core source code
-    │  ├─ Form1.vb           # Main calculator window
-    │  ├─ About.vb           # About window
-    │  └─ Calculation.vbproj # Project configuration
-    ├─ Calculation.sln       # Visual Studio solution file
-    ├─ Calculation.slnx      # Solution user options
-    └─ README.md             # This file
-
 Author
     Name: DonGhost
     Website: [donghost.tech](https://github.com/SlimStar-CN)
